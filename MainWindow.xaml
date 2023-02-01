@@ -1,0 +1,17 @@
+﻿<Window x:Class="Urvancev.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Urvancev"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Красный" HorizontalAlignment="Left" Height="52" Margin="56,222,0,0" VerticalAlignment="Top" Width="121" x:Name="RedBut" Click="RedBut_Click"/>
+        <Button Content="Зеленый" HorizontalAlignment="Left" Height="52" Margin="243,222,0,0" VerticalAlignment="Top" Width="121" x:Name="GreenBut" Click="GreenBut_Click" />
+        <Button Content="Синий" HorizontalAlignment="Left" Height="52" Margin="432,222,0,0" VerticalAlignment="Top" Width="121" x:Name="BlueBut" Click="BlueBut_Click"/>
+        <Button Content="Желтый" HorizontalAlignment="Left" Height="52" Margin="621,222,0,0" VerticalAlignment="Top" Width="121" x:Name="YellowBut" Click="YellowBut_Click"/>
+        <Button Content="2 задание" HorizontalAlignment="Left" Height="71" Margin="276,316,0,0" VerticalAlignment="Top" Width="277" x:Name="Next" Click="Next_Click"/>
+
+    </Grid>
+</Window>
